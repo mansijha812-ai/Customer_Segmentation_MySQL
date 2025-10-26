@@ -14,6 +14,7 @@ I analyzed bank customer data to solve three key business questions:
 **ANALYTICAL FRAMEWORK:**
 
 **A. CUSTOMER SEGMENTATION ANALYSIS**
+
 Methodology: Multi-dimensional scoring system
 
 Balance Score (50% weight): Normalized account balances (0-100 scale)
@@ -33,6 +34,7 @@ Low Value (<30 score): 2,554 customers (40.32%)
 Business Implication: Extreme Pareto distribution - 99%+ of value from <1% of customers
 
 **B. INVESTMENT BEHAVIOR ANALYSIS**
+
 Methodology: Multi-dimensional cohort analysis
 
 Age Segmentation: Young (18-35), Middle-aged (36-55), Senior (56+)
@@ -56,6 +58,7 @@ Savings: Safety-focused (highest fixed deposit preference)
 Overall Distribution: Near-perfect split (33% each) across investment types
 
 **C. CHURN RISK ANALYSIS**
+
 Methodology: Rule-based risk scoring
 
 Very High Risk: Balance <5,000 + Only 1 transaction (144 customers)
