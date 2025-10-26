@@ -12,7 +12,8 @@ I analyzed bank customer data to solve three key business questions:
 
 
 **ANALYTICAL FRAMEWORK:**
-A. CUSTOMER SEGMENTATION ANALYSIS
+
+**A. CUSTOMER SEGMENTATION ANALYSIS**
 Methodology: Multi-dimensional scoring system
 
 Balance Score (50% weight): Normalized account balances (0-100 scale)
@@ -21,7 +22,7 @@ Transaction Score (50% weight): Normalized transaction activity (0-100 scale)
 
 Final Score: Weighted average of both metrics
 
-Key Findings:
+**Key Findings:**
 
 High Value (≥60 score): 46 customers (0.73%)
 
@@ -31,7 +32,7 @@ Low Value (<30 score): 2,554 customers (40.32%)
 
 Business Implication: Extreme Pareto distribution - 99%+ of value from <1% of customers
 
-B. INVESTMENT BEHAVIOR ANALYSIS
+**B. INVESTMENT BEHAVIOR ANALYSIS**
 Methodology: Multi-dimensional cohort analysis
 
 Age Segmentation: Young (18-35), Middle-aged (36-55), Senior (56+)
@@ -40,7 +41,7 @@ Account Types: Savings, Current, Business
 
 Investment Products: Fixed Deposit, Recurring Deposit, Mutual Fund
 
-Key Findings:
+**Key Findings:**
 
 Risk Paradox: Seniors showed highest mutual fund participation (1,242 transactions) vs Young (873 transactions)
 
@@ -54,7 +55,7 @@ Savings: Safety-focused (highest fixed deposit preference)
 
 Overall Distribution: Near-perfect split (33% each) across investment types
 
-C. CHURN RISK ANALYSIS
+**C. CHURN RISK ANALYSIS**
 Methodology: Rule-based risk scoring
 
 Very High Risk: Balance <5,000 + Only 1 transaction (144 customers)
@@ -65,7 +66,7 @@ Medium Risk: Balance <20,000 (515 customers)
 
 Low Risk: All others (5,424 customers)
 
-Key Findings:
+**Key Findings:**
 
 Immediate Risk: 396 customers (6.25%) need urgent retention efforts
 
@@ -74,6 +75,7 @@ Preventive Care: 515 customers (8.13%) at medium risk
 Healthy Base: 85.62% of customer base is stable
 
 **BUSINESS IMPACT:**
+
 This analysis helps target marketing, develop better products, and improve customer retention.
 
 **FILES:**
